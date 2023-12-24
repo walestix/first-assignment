@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool | Form</title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./form.html">Go to form</a>
+      </li>
+    </ul>
+
+    <main>
+      <div>
+        <h3>Application Form</h3>
+        <span>Fill in your details</span>
+      </div>
+      <br />
+      <form action="">
+        <label for="firstName">First Name<span>*</span></label>
+        <br />
+        <input type="text" placeholder="Enter first name" required />
+        <br />
+        <br />
+
+        <label for="lastName">Last Name<span>*</span></label>
+        <br />
+        <input type="text" placeholder="Enter last name" required />
+        <br />
+        <br />
+
+        <label for="gender">Gender<span>*</span></label>
+        <br />
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="dob">Date of Birth*</label>
+        <br />
+        <input type="date" name="dob" id="dob" />
+        <br />
+        <br />
+
+        <label for="email">Email Address*</label>
+        <br />
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+
+        <label for="education" aria-placeholder="select level of education"
+          >Education Level<span>*</span></label
+        >
+        <br />
+        <select name="education" id="education">
+          <option value="bsc">Bsc</option>
+          <option value="msc">Msc</option>
+          <option value="diploma">Diploma</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="country">Country<span>*</span></label>
+        <br />
+        <select name="country" id="country">
+          <option value="Ghana">Ghana</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Mali">Mali</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="state">State/City of Residence<span>*</span></label>
+        <br />
+        <input type="text" placeholder="Enter your state of residence" />
+        <br />
+        <br />
+
+        <label for="employment-status">Employment Status<span>*</span></label>
+        <br />
+        <select name="employment-status" id="employment-status">
+          <option value="employed">Employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="self-employed">Self-employed</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="phone-number">Phone Number<span>*</span></label>
+        <br />
+        <input type="tel" placeholder="" />
+        <br />
+        <br />
+
+        <label for="course-of-study">Choose Course of Study<span>*</span></label>
+        <br />
+        <select name="course-of-study" id="course-of-study">
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+          <option value="cloud">Cloud Computing</option>
+          <option value="data-science">Data Science</option>
+          <option value="data-engineer">Data Engineering</option>
+          <option value="ui/ux">UI/UX</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="school">Choose School<span>*</span></label>
+        <br />
+        <select name="school" id="school">
+          <option value="creatiive-economy">School of Creative Economy</option>
+          <option value="business">School of Business</option>
+          <option value="data">School of Data</option>
+          <option value="engineering">School of Engineering</option>
+          <option value="product">School of Product</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="channel">How did you hear about us?<span>*</span></label>
+        <br />
+        <select name="channel" id="channel">
+          <option value="fb">Facebook</option>
+          <option value="whatsapp">Whatsapp</option>
+          <option value="twitter">Twitter</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="youtube">Youtube</option>
+          <option value="friend">Friend</option>
+          <option value="billoard">Billboard</option>
+          <option value="instagram">Instagram</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="discount">Scholarship/Discount Code (optional)</label>
+        <br />
+        <input type="text" placeholder="Scholarship or student ID or discount codes" />
+        <br />
+        <br />
+
+        <div>
+          By clicking continue, I agree to <a href="#"> Terms of Use</a> and acknowledge that I have
+          read the <a href="#">Privacy Policy.</a>
+        </div>
+        <br />
+
+        <button type="submit">Proceed</button>
+
+        <h5>Already have an account? <a href="#">Sign in</a></h5>
+      </form>
+    </main>
+  </body>
+</html>
